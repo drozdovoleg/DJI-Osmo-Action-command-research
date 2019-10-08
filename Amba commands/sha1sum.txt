@@ -1,0 +1,1 @@
+Usage: sha1sum <filename>

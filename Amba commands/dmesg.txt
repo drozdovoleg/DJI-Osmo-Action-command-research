@@ -1,0 +1,2 @@
+Usage: dmesg [rtos|dsp|rtos_prefix] [on|off] - Print or control the kernel/dsp ring buffer
+       dmesg [rtos|dsp] [-[num lines]|all] - Print ths last or all debug messages

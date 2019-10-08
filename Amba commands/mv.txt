@@ -1,0 +1,6 @@
+Move (rename) files.
+
+Usage: mv [source] [destination]
+ Note: 1. It will not move the file once the file is already existed in the destination.
+       2. It does not support to use wildcard (*) to specify the destination name.
+       3. It only support to move file.

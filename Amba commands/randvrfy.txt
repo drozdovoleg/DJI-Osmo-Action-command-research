@@ -1,0 +1,6 @@
+Usage: randvrfy [Slot] [Size] [all|times] [Delay] [Keep]
+  Size is an option means to the test file Size.
+  all is an option means to test with all free space
+  times means how many files will be tested
+  Delay is an option means ms Delay after each file
+  Keep is an option means to Keep files after test

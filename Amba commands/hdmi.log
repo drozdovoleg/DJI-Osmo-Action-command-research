@@ -1,0 +1,15 @@
+Usage: hdmi [mode|phy|stat|edid|monitor|autocts] <...>
+       hdmi mode <VIDEO_ID_CODE> ([rgb|422|444] [24|30|36])                    : Change video resolution and color space
+         VIDEO_ID_CODE: Please reference CEA-861-F
+         rgb: RGB 4:4:     422: YCbCr 4:2:2, 444: YCbCr 4:4:4
+         24: 24-bit,       30: 30-bit,       36: 36-bit
+       hdmi phy <SINK_CURRENT> <PREEMPHASIS_0> <PREEMPHASIS_1> <PREEMPHASIS_2> : Electrical signal quality tuning
+         SINK_CURRENT: 0x0-0xF=0%-50.0% more current (3.33% per step)
+         PREEMPHASIS_0: 0x0-0xF=0%-50.0% pre-emphasis (3.33% per step)
+         PREEMPHASIS_1: 0x0-0x7=0%-23.3% pre-emphasis (3.33% per step)
+         PREEMPHASIS_2: 0x0-0x7=0%-11.7% pre-emphasis (1.67% per step)
+       hdmi stat                                                               : Show current connection status
+       hdmi edid parse                                                         : Show sink supported formats
+       hdmi edid save <FILENAME> <BEGIN_BLOCK_ID> <END_BLOCK_ID>               : Save edid blocks to certain file
+       hdmi monitor [start|stop]                                               : Dummy HPD handler
+       hdmi autocts [on|off]                                                   : Audio cts programmble on/off

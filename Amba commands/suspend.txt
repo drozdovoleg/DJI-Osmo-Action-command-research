@@ -1,0 +1,8 @@
+Usage: suspend [s1|s3]
+
+Power states:
+  s1: (referred to standby mode):
+      Power on Suspend (POS): All the processor caches are flushed, and the CPU(s) stops executing instructions.
+      The power to the CPU(s) and RAM is maintained. Devices that do not indicate they must remain on, may be powered off.
+  s3: (referred to dram self-refresh mode):
+      Suspend to RAM (STR): RAM remains powered.

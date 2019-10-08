@@ -1,0 +1,125 @@
+Module:          libaudio_sys.a
+Built Machine:   hhchen@ambtwubu11:[gcc 4.9.3]
+Commit count:    8696
+Commit ID:       M782553a
+Module:          libbsp.a
+Built Machine:   jenkins@rdcmp63-in:[gcc 4.9.3]
+Commit count:    6984
+Commit ID:       68052a1
+Module:          libcomsvc_misc.a
+Built Machine:   jenkins@rdcmp63-in:[gcc 4.9.3]
+Commit count:    6984
+Commit ID:       68052a1
+Module:          libcomsvc_shell.a
+Built Machine:   jenkins@rdcmp63-in:[gcc 4.9.3]
+Commit count:    6984
+Commit ID:       68052a1
+Module:          libcomsvc_sys.a
+Built Machine:   jenkins@rdcmp63-in:[gcc 4.9.3]
+Commit count:    6984
+Commit ID:       68052a1
+Module:          libdsp_dspkernel.a
+Built Machine:   hhchen@ambtwubu7:[gcc 4.9.3]
+Commit count:    190
+Commit ID:       b238059
+Module:          libdsp_imgkernel.a
+Built Machine:   gyliu@ambtwubu9:[gcc 4.9.3]
+Commit count:    573
+Commit ID:       M08dfe9c
+Module:          libfs.a
+Built Machine:   jnchang@ambtwubu7:[gcc 4.9.3]
+Commit count:    0
+Commit ID:       local
+Module:          libimg_adj.a
+Built Machine:   wyyang@ambtwubu9:[gcc 4.9.3]
+Commit count:    9173
+Commit ID:       2655274
+Module:          libimg_ae.a
+Built Machine:   wyyang@ambtwubu9:[gcc 4.9.3]
+Commit count:    9173
+Commit ID:       2655274
+Module:          libimg_awb.a
+Built Machine:   wyyang@ambtwubu9:[gcc 4.9.3]
+Commit count:    9173
+Commit ID:       2655274
+Module:          libimg_calib.a
+Built Machine:   cywu@ambtwubu7:[gcc 4.9.3]
+Commit count:    8560
+Commit ID:       20803fc
+Module:          libimg_ituner.a
+Built Machine:   (null)
+Commit count:    0
+Commit ID:       (null)
+Module:          libimg_proc.a
+Built Machine:   jnchang@ambtwubu7:[gcc 4.9.3]
+Commit count:    0
+Commit ID:       local
+Module:          liblink.a
+Built Machine:   jnchang@ambtwubu7:[gcc 4.9.3]
+Commit count:    8706
+Commit ID:       Meccb594
+Module:          libperipheral.a
+Built Machine:   jenkins@rdcmp63-in:[gcc 4.9.3]
+Commit count:    6984
+Commit ID:       68052a1
+Module:          libsoc.a
+Built Machine:   jenkins@rdcmp63-in:[gcc 4.9.3]
+Commit count:    6984
+Commit ID:       68052a1
+Module:          libsoc_test.a
+Built Machine:   jnchang@ambtwubu7:[gcc 4.9.3]
+Commit count:    0
+Commit ID:       local
+Module:          libusb.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_cdcacm.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_dfu.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_driver.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    8672
+Commit ID:       b1f262a
+Module:          libusb_hid.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_hostclasses.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_hostcontroller.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_msc.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_mtp.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_pictbridge.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_simple.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_stream.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Module:          libusb_uvc.a
+Built Machine:   nouyang@ambtwubu7:[gcc 4.9.3]
+Commit count:    25
+Commit ID:       b3fa5cf
+Built amba_ssp_app.elf by jenkins@rdcmp63-in at Fri Sep 27 17:05:01 CST 2019

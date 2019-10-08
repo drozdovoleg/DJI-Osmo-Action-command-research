@@ -1,0 +1,3 @@
+Remove all files and subdirectories under the specified directory.
+
+Usage: cleandir [path]

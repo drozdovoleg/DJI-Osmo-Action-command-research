@@ -1,0 +1,6 @@
+Usage: i2c speed [STD|FAST|FAST+|HIGH]                                                        - change bus speed
+       i2c read <channel> <read_slave_addr> count                                             - read test
+       i2c write <channel> <write_slave_addr> data0 data1 ..                                  - write test
+       i2c <channel> [addr <write_slave_addr> data0 data1 ..] [addr <read_slave_addr> count]  - read after write test
+EX: Read EDID block 0 via HDMI DDC channel
+       i2c 2 addr 0x60 0 addr 0xa0 0 addr 0xa1 128

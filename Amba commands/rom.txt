@@ -1,0 +1,4 @@
+valid test targets for ROM are:
+	ls
+	save
+	crc

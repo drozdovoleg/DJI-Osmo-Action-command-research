@@ -1,0 +1,10 @@
+Usage: ps [tsk|mtx|sem|flg|msg|mem|all|irq|profile] ([option])
+       ps tsk - Task info
+       ps mtx - Mutex info
+       ps sem - Semaphore info
+       ps flg - Eventflag info
+       ps msg - Message queue info
+       ps mem - Memory pool info
+       ps all - All the above info
+       ps irq [reset|all|<id>] - IRQ info
+       ps profile [reset] - profiler result

@@ -1,0 +1,2 @@
+Usage1: chmod [+-R|+-A|+-S|+-H] [file]
+Usage2: chmod -d [+-R|+-A|+-S|+-H] [dir] [file]

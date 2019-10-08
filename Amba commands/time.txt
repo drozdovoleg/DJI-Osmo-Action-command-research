@@ -1,0 +1,5 @@
+Purpose: Execute the shell command and print a summary of the elapsed time
+Usage: time command
+Example: time ver
+         time 'cp c:\test.txt a:'
+         time 'test.ash'

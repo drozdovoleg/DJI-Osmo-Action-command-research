@@ -1,0 +1,21 @@
+Usage: sd_shmoo reg_test all <sd0 | sd2>
+Usage: sd_shmoo reg_test [ClkBypass] [RxClkPol] [CmdBypass] [DinClkPol] <sd0 | sd2>
+Usage: sd_shmoo reg_set [DetailDelayReg] <sd0 | sd2>
+Usage: sd_shmoo maxclk_set [SDCardMaxClock]
+Usage: sd_shmoo rdlatency_set [rdlatency] <sd0 | sd2>
+Usage: sd_shmoo ds_set [2mA | 4mA | 8mA | 12mA] <sd0 | sd2>
+Usage: sd_shmoo show <sd0 | sd2> -- show the driving strength, max clock and detail delay
+Usage: sd_shmoo dump <sd0 | sd2> -- dump the register
+Usage: sd_shmoo testsize_set [TestFileMb] -- Set the test file size(Mb)
+Usage: sd_shmoo single_delay <0 | 1> -- 0: disable 1: enable
+ ClkBypass - clock out bypass. 1:bypass 0:not bypass
+ RxClkPol - rx clock pol enable. 1:enable 0:not enable
+ CmdBypass - cmd out bypass. 1:bypass 0:not bypass
+ DinClkPol - change polarity of clk to latch incoming data/cmd. 1:change 0:not change
+ DetailDelayReg - the sd phy control register.
+ SDCardMaxClock - the sd card max clock speed.
+ Example : t svc sd_shmoo reg_test 0 0 0 0 sd0
+ Example : t svc sd_shmoo reg_set 0x391 sd0
+ Example : t svc sd_shmoo maxclk_set 100000000 sd0
+ Example : t svc sd_shmoo ds_set 12mA sd0
+

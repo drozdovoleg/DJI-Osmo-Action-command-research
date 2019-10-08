@@ -1,0 +1,1 @@
+cardmgr: command not found

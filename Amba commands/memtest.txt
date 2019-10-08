@@ -1,0 +1,2 @@
+Usage: memtest diag [size]                 - Memory diagnostic tool
+       memtest bandwidth [size] [duration] - Memory bandwidth benchmark

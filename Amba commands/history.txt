@@ -1,0 +1,9 @@
+Usage:
+  history N
+      N: Show the latest N history commands
+  history -e N
+     -e: Execute the N-th history command
+  history [-r|-w|-c] File_Path
+     -r: Load command history from file
+     -w: Save command history to file
+     -c: Clear entire history command buffer

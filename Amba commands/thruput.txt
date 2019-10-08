@@ -1,0 +1,10 @@
+Usage: thruput [slot]
+Usage: thruput [slot] [BlockSize]
+Usage: thruput [slot] [rand_write]
+Usage: thruput [slot] [BlockSize] [Areas]
+Usage: thruput [slot] [one] [FileSize]
+Usage: Äç[ [slot] [BlockSize] [Align] [size]
+Usage: ,""\fm [slot] [multi] [num] [BlockSize1] [BlockSize2] ...
+Where
+  BlockSize is an option that means block size
+  Areas is an option that means number of Areas in all free space

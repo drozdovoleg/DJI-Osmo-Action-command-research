@@ -1,0 +1,3 @@
+Remove empty directory.
+
+Usage: rmdir [path]

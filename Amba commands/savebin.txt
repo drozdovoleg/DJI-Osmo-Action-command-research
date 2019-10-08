@@ -1,0 +1,9 @@
+Usage: savebin [Filename] [Addr1] to [Addr2] : Saving binary from the start address to the end address
+         [Filename]: The file for saving binary data
+         [Addr1]: The start address
+         [Addr1]: The end address
+
+       savebin [Filename] [Addr] l [Len] : Saving binary in an range of addresses
+         [Filename]: The file for saving binary data
+         [Addr]: The start address
+         [Len]: The binary length

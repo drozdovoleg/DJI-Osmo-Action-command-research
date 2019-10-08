@@ -1,0 +1,6 @@
+Usage: saveimage [Filename] [Addr] [Width] [Height] [Pitch]: Saving image with dimension Width x Height
+         [Filename]: The file for saving image data
+         [Addr]: The start address
+         [Width]: Image width (in bytes)
+         [Height]: Image height
+         [Pitch]: Image pitch (in bytes)

@@ -1,0 +1,5 @@
+Usage: chklowspd [slot] [bs] [ms] [lim] [mode]
+  bs is an option means block size of each write.
+  ms is an option means each sampiling time.
+  lim is an option means the lowest write speed in Mbs.
+  mode is an option [phy] means phyical access

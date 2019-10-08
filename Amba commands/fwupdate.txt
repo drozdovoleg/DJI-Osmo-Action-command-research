@@ -1,0 +1,4 @@
+Usage: fwupdate [set| read| erase]
+  Set is an option means to the test file Size.
+  read is an option means to test with all free space
+  erase means how many files will be tested
