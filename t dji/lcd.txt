@@ -1,0 +1,10 @@
+Supported commands:
+ bklight        : Set/Get lcd backlight Para[Integer]: t dji lcd bklight set/get [0~100]
+ rf             : Rotate ot Flip the lcd display: t dji lcd rf [r0/r180] [fhorz]
+ mode           : Set panel mode: t dji lcd mode [on/off/sleepin/sleepout/testreinit]
+ name           : get the lcd name: t dji lcd name
+ stat           : get the lcd status: t dji lcd stat
+ channel        : switch the lcd channel: t dji lcd channel get /info 0/switch 1 40 0 320 320 1(channelID, x,y,width,height,OSD_Enable)
+ spi            : Set lcd spi baund rate Para[Integer]: t dji lcd spi set [0~500000]
+ reg            : Set lcd reg operation[Integer]: t dji lcd reg write addr value num/read addr num, 0x0A:0x9C,
+ reboot         : Set exception reboot: t dji lcd reboot

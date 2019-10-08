@@ -1,0 +1,7 @@
+Supported commands:
+ name           : get tp ic name
+ mode           : [mode number]
+ info           : running information
+ debug          : show [on/off]: show touch info on or off 
+ driver [Integer]: debug driver cmd number.
+ stat           : Get Tp init Status

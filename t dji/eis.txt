@@ -1,0 +1,2 @@
+Supported commands:
+ dbg            : 1|2|3|4|5|6|7|8 DjiEis debug interface, refer to DjiImageMainEis.h to find defination

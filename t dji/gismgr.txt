@@ -1,0 +1,4 @@
+Supported commands:
+ cmd            : [cmd][Para]
+ show           : all/dcf/raw
+ debug          : check code

@@ -1,0 +1,1 @@
+Usage: t dji pmwakeup show        - t dji pmwakeup 0

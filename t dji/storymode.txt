@@ -1,0 +1,5 @@
+Useage: t dji storymode 0 - disable story mode
+Useage: t dji storymode 1 - enable story mode
+Useage: t dji storymode 2 1/0 - Save story mode video or not
+Useage: t dji storymode 3 Enable Freq TimeOut  - Heart beat param
+Useage: t dji storymode 4 Fname Width Height Format  - Feed yuv parma

@@ -1,0 +1,6 @@
+**********************************
+Support Cmd:
+t dji linux open
+t dji linux close
+t dji linux status
+t dji linux xxxx 

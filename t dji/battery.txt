@@ -1,0 +1,3 @@
+Supported commands:
+ info           : Get battery info[Integer]: t dji battery info
+ authen         : Get battery autherticate Para[Integer]: t dji battery Authen

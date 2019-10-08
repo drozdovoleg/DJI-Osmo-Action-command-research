@@ -1,0 +1,8 @@
+Supported commands:
+ key            : [key code][key action][key value]
+ tp             : [finger num: n] n pairs{[x][y][action eg. 1-press 2-release 3-move]}
+ mw             : mw help
+ mem            : [info]show memory infomation,[ewinfo]show ew memory infomation
+ status         : [command id] [status]
+ fw             : [stat] [all/layer/display/sync]
+ bmldr          : bmldr help

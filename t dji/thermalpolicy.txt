@@ -1,0 +1,10 @@
+Useage: t dji thermalpolicy heat temp              - t dji thermalpolicy 0 85
+Useage: t dji thermalpolicy overheat temp          - t dji thermalpolicy 1 87
+Useage: t dji thermalpolicy fatal temp             - t dji thermalpolicy 2 90
+Useage: t dji thermalpolicy sensor_fatal temp      - t dji thermalpolicy 3 80
+Useage: t dji thermalpolicy showtemp enable        - t dji thermalpolicy 4 1
+current config is: 
+Thermal_Heat_TripPoint = 78
+Thermal_OverHeat_TripPoint = 80
+Thermal_Fatal_TripPoint = 83
+Thermal_Sensor_Fatal_TripPoint = 73

@@ -1,0 +1,9 @@
+ s              : Save profile settings to ROM: t dji mp s . eg: t dji mp s 
+ l              : Load profile settings from ROM: t dji mp l . eg: t dji mp l 
+ d              : Load default profile settings: t dji mp d [profile id]. eg: t dji mp d 1
+ p              : Print profile settings: t dji mp p index. eg: t dji mp p 5
+ sp             : Set profile: t dji mp sp [profile id]. eg: t dji mp sp 1
+ gp             : Get profile: t dji mp gp . eg: t dji mp gp
+ sm             : Set active profile index: t dji mp sm [profile id]. eg: t dji mp sm 1
+ ss             : Set advanced settings switch: t dji mp ss [profile id] [switch flag]. eg: t dji mp sp 1 0
+ sc             : Config custom mode: t dji mp sc [custom mode index] [profile id]. eg: t dji mp sc 1 5

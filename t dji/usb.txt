@@ -1,0 +1,4 @@
+Supported commands:
+ lockToRtos     : (0|1); lock usb to rtos
+ stat           : (); get usb state
+ switch         : 1|2|3|4 usb functions,linux device,linux host,rtos udisk,rtos mtp

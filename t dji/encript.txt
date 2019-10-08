@@ -1,0 +1,23 @@
+Supported commands:
+ read           : Command unit test: t dji encrypt read
+ nonce          : Command unit test: t dji encrypt nonce
+ mac            : Command unit test: t dji encrypt mac
+ chmac          : Command unit test: t dji encrypt chmac
+ dkey           : Command unit test: t dji dkey
+ hostMacCheck   : Command unit test: t dji hostMacCheck
+command too large, skip. check          : Command unit test: t dji encrypt check
+ sn             : Command unit test: t dji encrypt sn
+ save_key       : Command unit test: t dji encrypt save_key
+ lock_config    : Command unit test: t dji encrypt lock_config
+ w_data_zone    : Command unit test: t dji encrypt w_data_zone
+command too large, skip. rew_data_zone  : Command unit test: t dji encrypt rew_data_zone
+ lock_data      : Command unit test: t dji encrypt lock_data
+ r_data_zone    : Command unit test: t dji encrypt r_data_zone
+command too large, skip. w_otp_zone     : Command unit test: t dji encrypt w_otp_zone
+ lock_otp       : Command unit test: t dji encrypt lock_otp
+ r_otp_zone     : Command unit test: t dji encrypt r_otp_zone
+ save_rom       : Command unit test: t dji encrypt save_rom
+ read_rom       : Command unit test: t dji encrypt read_rom
+ init           : Command unit test: t dji encrypt init
+ clear_rom      : Command unit test: t dji encrypt clear_rom
+ active         : Command unit test: t dji encrypt clear_rom

@@ -1,0 +1,6 @@
+**********************************
+t dji dbg minmem               :prinf minimun buf size
+Usage:
+t dji dbg minmem               :prinf minimun buf size
+t dji dbg meminfo              :List Meminfo
+**********************************

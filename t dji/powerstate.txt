@@ -1,0 +1,9 @@
+Usage: t dji powerstate [standby/hebernation/poweroff] - t dji powerstate [0/1/2]
+Usage: t dji powerstate standby powerofftimeout        - t dji powerstate 0 [timeMs]
+Usage: t dji powerstate frozen_task delay_ms           - t dji powerstate 7 10
+Usage: t dji powerstate suspend_level name_device      - t dji powerstate 8 GIMBAL
+Usage: t dji powerstate uart_wakeup enable             - t dji powerstate 10 1
+Usage: t dji powerstate frozen_task_id index           - t dji powerstate 12 80
+Usage: t dji powerstate excp_poweroff enable           - t dji powerstate 13 1
+Usage: t dji powerstate show_callstack enable          - t dji powerstate 14 1
+Usage: t dji powerstate suspend_real enable            - t dji powerstate 15 1

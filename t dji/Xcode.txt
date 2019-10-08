@@ -1,0 +1,93 @@
+Supported DJI commands:
+ ver            : Show firmware and hardware version.
+ mode           : Switch operation mode. t dji mode [still capture:0/record:1/playback:2]. eg: t dji mode 0
+ cap            : Do still capture. t dji cap [owner] [type]. eg: t dji cap 0 1
+ freq           : Show current frequency: t dji freq. eg: t dji freq
+ reboot         : System reboot [wdt/soft reset]: t dji reboot [0/1]. eg: t dji reboot 0
+ autoreboot     : Auto reboot control: t dji autoreboot [no(0)/yes(1)]. eg: t dji autoreboot 0
+ temp           : Get temperature: t dji temp [node id]. eg: t dji temp 0
+ reason         : Print reset reason. t dji reason. eg: t dji reason
+ wdg            : Disable watch dog/Stop auto feed/Start auto feed: t dji wdg [0/1/2]. eg: t dji wdg 0
+ bufinfo        : Buffer info show. t dji buf. eg: t dji bufinfo
+ 3a             : 3a test entry: t dji 3a [xxx]. eg: t dji 3a ...
+ afinfo         : af info 1--buffer, 2 -- state
+ afstate        : af info 1--buffer, 2 -- state
+ focus_sweep    : af sweep a b c
+command too large, skip. wobbling       : af wobbling base amplitude delayMotor delayData count
+ fpgaflash      : Read/Write/Erase Camera Fpga spi flash. t dji fpgaflash 0/1 0/1/2 [ADDR][SIZE]. eg: t dji fpgaflash 0 0 0 0x10
+ KeyDebug       : t dji KeyDebug 1 0
+ gimbalmv       : Gimbal Log Move
+ FactoryUst     : Load factory user setting
+ ust            : User settings related test commands.
+ mp             : Mode profiles related test commands.
+ rename         : File rename: t dji rename [old name] [new name]. eg: t dji rename c:\old.bin c:\new.bin
+ copy           : File copy: t dji copy [old name] [new name]. eg: t dji copy c:\old.bin c:\new.bin
+ sd             : Sd related test commands.
+ imgdmx         : Image demuxer test commands.
+ ddrshmoo       : DDR shmoo related test commands.
+ iq             : IQ tuning related test commands.
+ flash          : camera flash test commands.
+ sto            : storage related test commands.
+ led            : Led related test commands.
+ ptb            : PTB related test commands
+ cridata        : Critical Data ralated commands
+ ae             : Ae related test commands
+ lens           : lens test
+ msg            : Message handler related test commands.
+ Gimbal         : Gimbal Ctrl Test
+ wifi           : wifi ctrl test
+ tlps           : Timelapse related test commands.
+ sf             : Spi flash related test commands.
+ sfdm           : Spi flash data mgr related test commands.
+ odi            : optical device info rw related test commands.
+ pb             : PlayBack related test commands.
+ rawf           : Raw FPGA ralated commands
+ A7             : A7 Ctrl Test
+ afif           : af interface
+ E2p            : E2p Ctrl Test
+ ZoomCtrl       : Zoom Ctrl Test
+ LvConfig       : Lv Config Test
+ 9CG            : 9CG Interface Test
+ RCamMgr        : Raw Cam Mgr Test
+ StepLessIris   : StepLess Iris Test
+ hdmi           : hdmi Test
+ SN             : SN Test
+ LowPower       : LowPowerMode Test
+ HalSensor      : HalSensor Test
+ Rotate         : Rotate Test
+ MsgHub         : MsgHub Test
+ OSAL           : OSAL Interface Test
+ nand           : input 't dji nand' for more help
+                : 
+ log            : input 't dji log' for more help
+ video          : input 't dji video' for more help
+ stream         : input 't dji stream' for more help
+ movie          : input 't dji movie' for more help
+ ipc            : input 't dji ipc' for more help
+ mcctrl         : input 't dji mcctrl' for more help
+ lcd            : input 't dji lcd' for more help
+ gui            : input 't dji gui' for more help
+ tp             : input 't dji tp' for more help
+ gismgr         : input 't dji gismgr' for more help
+ rlv            : 0:debug level(bitmask:1<<n); 1:show stat; 2:RLV start; 3:RLV stop;
+                                    4:Rec start; 5:Rec stop; 6:set dst; 7:set bitrate (bps); 8:frame cap test.
+ usb            : input 't dji usb'for more help
+ eis            : input 't dji eis'for more help
+ xcode          : Xcode related test
+ trans          : input 't dji trans' for more help
+ charger        : input 't dji charger' for more help
+ liveview       : input 't dji liveview' for more help
+ storymode      : input 't dji storymode' for more help
+ powerstate     : input 't dji powerstate' for more help
+ pmwakeup       : input 't dji pmwakeup' for more help
+ pmcommon       : input 't dji pmcommon' for more help
+ rmtimg         : input 't dji rmtimg' for more help
+ battery        : input 't dji battery' for more help
+ elog           : Emergency log related commands
+ tem            : input 't dji tem' for more help
+ encrypt        : Encrypt related test commands
+ tryout         : Tryout related test commands
+ linux          : input 't dji linux' for more help
+ thermalpolicy  : input 't dji thermalpolicy' for more help
+ dbg            : debug tool
+ sym            : symbol operation

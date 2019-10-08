@@ -1,0 +1,12 @@
+Supported commands:
+ modlist        : (); list module info
+ setmodlvl      : (modName, modLvl); set module level
+ setmodmask     : (modName, modMask); set module mask(0xNNN format)
+ setglblvl      : (gblLvl); set global level
+ setglbmask     : (gblMask); set global mask(0xNNN format)
+ setglbEncode   : (gblEncode); set global mask(0:unencode, 1:encode)
+ setConsoleOn   : (setConsoleOn); set global mask(0:off, 1:on)
+command too large, skip. outlist        : (); list log outer
+ setoutstat     : (outName, 0|1); set log outer state(disable|enable)
+ flush          : (); flush log
+ test           : (); self test

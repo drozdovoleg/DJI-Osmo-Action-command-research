@@ -1,0 +1,7 @@
+ s              : Save user settings to ROM: t dji ust s [pos]. eg: t dji ust s 0
+ l              : Load user settings from ROM: t dji ust l [pos]. eg: t dji ust l 0
+ d              : Load default user settings: t dji ust d. eg: t dji ust d
+ m              : Modify user settings by ID: t dji ust m [id] [value]. eg: t dji ust m 0 0x123
+ p              : Print user settings: t dji ust p. eg: t dji ust p
+ pns            : Print user settings: t dji ust pns. eg: t dji ust pns 1 1
+ png            : Print user settings: t dji ust png. eg: t dji ust png 1
