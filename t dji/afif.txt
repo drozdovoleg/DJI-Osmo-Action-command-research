@@ -1,0 +1,28 @@
+ test           : Command unit test: t dji afif test
+ weight         : Print af weight table info
+ getflag        : Print all flag
+ windowset      : Command unit test: t dji afif windowset xstart xnum ystart ynum
+ windowget      : Command unit test: t dji afif windoget
+ zoom           : Command unit test: t dji afif zoom xstart xnum ystart ynum ratio
+ body           : Command unit test: t dji afif body bodymode
+ LensAttr       : Command unit test: t dji bc LensAttr
+ accuracy       : Command unit test: t dji afif accuracy 0/1
+ focusstats     : Command unit test: t dji afif focusstats
+ setplot        : Command unit test: t dji afif setplot xstart xnum ystart ynum span
+ getstat        : Command unit test: t dji afif getstat
+ setstat1       : Command unit test: t dji afif setstat1 [filter1/filter2] params
+ getstat2       : Command unit test: t dji afif getstat2
+ setstat2       : Command unit test: t dji afif setstat2 [filter1/filter2] params
+ sweep          : Command unit test: t dji afif sweep pos step count
+ setregion      : Command unit test: t dji afif setregion float float
+ default        : Command unit test: t dji afif default
+ afgui          : Command unit test: t dji afif afgui [1/0]
+ affail         : Command unit test: t dji afif affail [1/0]
+ afc            : Command unit test: t dji afif afc [change] [stable]
+ afctri         : Command unit test: t dji afif afctri [distance] [delay*10] [max_ratio*100] [min_ratio*100]
+ afcspeed       : Command unit test: t dji afif afcspeed [cammode] [coarse_speed] [fine_speed] [goto_speed] [switchratio * 100]
+ afcfix         : Command unit test: t dji afif afcfix [flag]
+ afcstop        : Command unit test: t dji afif afcstop [flag]
+ tlptemp        : Command unit test: t dji afif tlptemp [temperature]
+ capaf          : Command unit test: t dji afif capaf
+ untrust        : Command unit test: t dji afif untrust

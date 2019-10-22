@@ -1,0 +1,3 @@
+ Write          : Command unit test: t dji 9CG Write chan xx
+ Read           : Command unit test: t dji 9CG Read chan xx
+ Init           : Command unit test: t dji 9CG Read chan xx

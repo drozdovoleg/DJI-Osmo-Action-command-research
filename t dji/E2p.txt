@@ -1,0 +1,5 @@
+ ModuleID       : Command unit test: t dji e2prom ModuleID
+ Write          : Command unit test: t dji e2prom Write AddrH AddrL Data0... 
+ Read           : Command unit test: t dji e2prom Read  AddrH AddrL Num < 16 
+ AfRangeRead    : Command unit test: t dji e2prom AfRangeRead
+ vcm            : Command unit test: t dji e2prom vcm

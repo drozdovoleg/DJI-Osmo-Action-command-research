@@ -1,0 +1,14 @@
+ switch         : Command unit test: t dji ae switch data
+ mode           : Command unit test: t dji ae mode scene_mode avtv_mode
+ delay          : t dji ae delay [iso/shu/iris/fwiris] count : t dji ae delay [0/1/2/3] count
+ table          : Command unit test: t dji ae table
+ irisway        : t dji ae irisway [SM/INT/COM] : t dji ae irisway [1/2/3]
+ lvset          : t dji ae lvset [bias/tar] : t dji ae lvset [0/1] value
+ rout           : Command unit test: t dji ae rout flag
+ advanced_detect: Command unit test: t dji ae advanced_detect data
+ cnd_limit      : Command unit test: t dji ae cnd_limit
+ cnd_iris       : Command unit test: t dji ae cnd_iris
+ cnd_shu        : Command unit test: t dji ae cnd_shu
+ cnd_iso        : Command unit test: t dji ae cnd_iso
+ cnd_stg        : Command unit test: t dji ae cnd_stg
+ shspeed        : Command unit test: t dji ae shspeed

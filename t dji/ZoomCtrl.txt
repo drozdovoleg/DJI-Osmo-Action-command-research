@@ -1,0 +1,4 @@
+ Zoom           : Command unit test: t dji Zoom [0-10]
+ ZoomShow       : Command unit test: t dji ZoomShow
+ ZoomLocataion  : Command unit test: t dji ZoomLocation [ZoomNum] [OneRangeStep] [Shift X] [Shift Y]
+ RangeStep      : Command unit test: t dji RangeStep [1-20]

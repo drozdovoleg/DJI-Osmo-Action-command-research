@@ -1,0 +1,6 @@
+ Switch         : Command unit test: t dji Rotate Switch
+ Debug          : Command unit test: t dji Rotate Debug
+ FlipTest       : Command unit test: t dji Rotate FlipTest
+ Lock           : Command unit test: t dji Rotate Lock
+ Sync           : Command unit test: t dji Rotate Sync
+command too large, skip. Status         : Command unit test: t dji Rotate Status

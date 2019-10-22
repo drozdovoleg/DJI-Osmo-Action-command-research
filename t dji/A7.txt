@@ -1,0 +1,5 @@
+ Ver            : Command unit test: t dji A7 Ver
+ Status         : Command unit test: t dji A7 Status(0-Stop,1-Wroking)
+ OutputWidth    : Command unit test: t dji A7 OutputWidth
+ Write          : Command unit test: t dji A7 Write
+ Read           : Command unit test: t dji A7 Read

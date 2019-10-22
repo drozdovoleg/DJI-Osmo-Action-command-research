@@ -1,0 +1,4 @@
+ Debug          : Command unit test: t dji HalSensor Debug
+ Fix            : Command unit test: t dji HalSensor Fix
+ Info           : Command unit test: t dji HalSensor Info
+ Power          : Command unit test: t dji HalSensor Power 0/1

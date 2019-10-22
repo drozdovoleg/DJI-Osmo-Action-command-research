@@ -1,0 +1,27 @@
+ ver            : Command unit test: t dji Lens ver
+ i2c            : Command unit test: t dji Lens i2c xxx
+ init           : Command unit test: t dji Lens init
+ move           : Command unit test: t dji Lens move pos
+ sweep          : Command unit test: t dji Lens sweep
+ sweep_fv       : Command unit test: t dji Lens sweep_fv
+ write          : Command unit test: t dji Lens write cmd data(n)
+ read           : Command unit test: t dji Lens read cmd
+ shading        : Command unit test: t dji Lens shading 0(f-num in FStopTable)
+ statistics     : Command unit test: t dji Lens statistics
+ lens_info      : Command unit test: t dji Lens lens_info
+ focus_info     : Command unit test: t dji Lens focus_info
+ lens_init      : Command unit test: t dji Lens lens_init
+ shutter        : Command unit test: t dji Lens shutter
+ adjust         : Command unit test: t dji Lens adjust
+ amba_set       : Command unit test: t dji Lens amba_set index
+ amba_get_info  : Command unit test: t dji Lens amba_get_info
+ amba_query_fnum: Command unit test: t dji Lens amba_query_fnum index
+ amba_get_status: Command unit test: t dji Lens amba_get_status
+ aperdebug      : Command unit test: t dji lens aperdebug [DISABLE/ENABLE]
+ lens_shmoo     : Command unit test: t dji Lens lens_shmoo 133
+ lens_getindex  : Command unit test: t dji Lens lens_getindex
+ curlens_info   : Command unit test: t dji Lens curlens_info
+ connect        : Command unit test: t dji lens connect
+ switch         : Command unit test: t dji lens switch value
+ pos            : Command unit test: t dji Lens pos
+ standby        : Command unit test: t dji Lens standby

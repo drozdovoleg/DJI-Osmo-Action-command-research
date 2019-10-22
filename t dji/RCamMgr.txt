@@ -1,0 +1,11 @@
+ Record         : Command unit test: t dji RCamMsg Record (1[start], 0[stop])
+ FormatSSD      : Command unit test: t dji RCamMsg FormatSSD (1[exfat], 0[fat])
+ Context        : Command unit test: t dji RCamMsg Context SensorMode Rotate
+ ContextInfo    : Command unit test: t dji RCamMsg ContextInfo
+ RawCamInfo     : Command unit test: t dji RCamMsg RawCamInfo
+ ISPContext     : Command unit test: t dji RCamMsg ISPContext
+ LensContext    : Command unit test: t dji RCamMsg LensContext
+ LCDMode        : Command unit test: t dji RCamMsg LCDMode LCDMode
+ DebugID        : Command unit test: t dji RCamMsg DebugID XX
+ Upgrade        : Command unit test: t dji RCamMsg Upgrade
+ Calut          : Command unit test: t dji RCamMsg Calut: color-alpha look up table
