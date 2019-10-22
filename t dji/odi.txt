@@ -1,0 +1,7 @@
+ dbg            : Debug level. 0:err,1:warn,2:notice,3:info,4:debug
+ info           : Init device info get.    t dji odi info
+ init           : Init device info module. t dji odi init [timeout](ms)
+ s              : store info to spiflash.  t dji odi s [sensorid] [DumpToSd] [timeout](ms)
+ l              : load info from spiflash. t dji odi l [DumpToSd [timeout](ms)
+ rwt            : load and store test.     t dji odi t [count] [DumpToSd [timeout](ms)
+ ist            : init speed test.         t dji odi t [count] [retrycount] [timeout](ms)

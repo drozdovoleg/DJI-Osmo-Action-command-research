@@ -1,0 +1,2 @@
+ eescan         : Command unit test: t dji nand eescan
+ imgcrc         : Command unit test: t dji nand imgcrc

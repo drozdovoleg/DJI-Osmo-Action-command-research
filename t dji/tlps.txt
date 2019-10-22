@@ -1,0 +1,15 @@
+ mode           : Set timelapse mode: t dji tlps mode [0/1]
+ interval       : Set timelapse interval: t dji tlps interval [ms]
+ duration       : Set timelapse duration: t dji tlps duration [s]
+ addpos         : Add one gimbal position: t dji tlps addpos
+ delpos         : Delete one gimbal position: t dji tlps delpos
+ resetpos       : Reset all gimbal position: t dji tlps resetpos
+ tripod         : Enable or disable tripod mode: t dji tlps tripod [0/1]
+ stofmt         : Set timelapse storage format: t dji tlps stofmt [0/1/2]
+ vidsize        : Set timelapse video size: t dji tlps vidsize <video size value>
+ start          : Start timelapse: t dji tlps start
+ stop           : Stop timelapse: t dji tlps stop
+ notigim        : Enable or disable notifying gimbal while starting or stopping timelapse.
+ rectype        : Set timelapse record type: t dji tlps rectype [type]
+ rectlps        : Record timelapse: t dji tlps rectlps [0/1/2/3/4/5/6/7/8/9]
+ mininterval    : Show current minimum interval: t dji tlps mininterval

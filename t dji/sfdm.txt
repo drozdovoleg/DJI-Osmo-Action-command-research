@@ -1,0 +1,14 @@
+ dbg            : Debug level. 0:err,1:warn,2:notice,3:info,4:debug
+ init           : init spi flash data mgr module
+ uninit         : uninit spi flash data mgr module
+ info           : show ptb information
+ format         : format ptb info
+ clear          : clear spi flash's sfdm information
+ readptb        : read ptb info
+ create         : create partition
+ read           : read partition  [id] [offset] [size]
+ write          : write partition [id] [offset] [data1] [data2] [data3] [...]
+ erase          : erase partition [id]
+ rwtest         : erase partition [id]
+ calibcheck     : check calib data [0:status, 1:bpc, 2:wb]
+ copycalib      : copy calib data [0:origin area->backup area, 1:backup area->origin area]

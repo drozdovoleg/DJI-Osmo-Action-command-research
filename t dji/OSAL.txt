@@ -1,0 +1,21 @@
+ TaskCreate     : Command unit test: t dji OSAL TaskCreate [id]
+ TaskSuspend    : Command unit test: t dji OSAL TaskSuspend [id]
+ TaskResume     : Command unit test: t dji OSAL TaskResume [id]
+ TaskDelete     : Command unit test: t dji OSAL TaskDelete [id]
+ TaskExit       : Command unit test: t dji OSAL TaskExit [id]
+ SemCreate      : Command unit test: t dji OSAL SemCreate [max_count][init_count]
+ SemDelete      : Command unit test: t dji OSAL SemDelete
+ SemTake        : Command unit test: t dji OSAL SemTake
+ SemGive        : Command unit test: t dji OSAL SemGive
+ MutexCreate    : Command unit test: t dji OSAL MutexCreate
+ MutexDelete    : Command unit test: t dji OSAL MutexDelete
+ MutexTake      : Command unit test: t dji OSAL MutexTake
+ MutexGive      : Command unit test: t dji OSAL MutexGive
+ EventCreate    : Command unit test: t dji OSAL EventCreate
+ EventDelete    : Command unit test: t dji OSAL EventDelete
+ EventSet       : Command unit test: t dji OSAL EventSet
+ EventClear     : Command unit test: t dji OSAL EventClear
+ QueCreate      : Command unit test: t dji OSAL QueCreate
+ QueDelete      : Command unit test: t dji OSAL QueDelete
+ QuePut         : Command unit test: t dji OSAL QuePut
+ QueGet         : Command unit test: t dji OSAL QueGet

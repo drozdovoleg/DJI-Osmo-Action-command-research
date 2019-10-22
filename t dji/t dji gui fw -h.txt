@@ -1,0 +1,10 @@
+[fw] Usage:
+      [stat]
+      [perf] [reset]
+      [layer] [chk/set/shl]
+      [sync] [divider <uint>]
+      [out][start/stop][0/1 0/1] set video/osd layer
+      [osdwin][id][x][y][w][h]
+      [rfb][1/2/3/4] 1: 0 deg, 2: 90 deg, 3: 180 deg, 4: 270 deg
+      [base_addr][x][y][w][h]
+      [dump] [canvas]

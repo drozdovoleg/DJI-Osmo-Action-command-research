@@ -1,0 +1,51 @@
+ cap            : Do capture: t dji msg cap [stop conti/single/multi/AEB/start conti]: t dji msg cap [0/1/4/5/6]
+ capconfig      : set/get cap param: t dji msg capconfig [set/get] [captype] [mcap cnt] [ccap type] [ccap cnt] [ccap interval]
+ rec            : Do record: t dji msg rec [stop/start]: t dji msg rec [0/1]
+ pb             : Do playback: t dji msg playback [stop/start/pause]: t dji msg playback [0/1/2]
+ opm            : Set work mode: t dji msg opm [cap/rec/pb/]: t dji msg rec [0/1/2]
+ pal/ntsc       : Set/Get video starndard: t dji msg pal/ntsc [PAL/NTSC/GET] []. t dji msg pal/ntsc [0/1/2]
+ expm           : Get/Set video starndard: t dji msg expm [Get/P/S/A/M/B/SCN/C] []. t dji msg expm [0/1/2/3/4/5/6/7]
+ rot            : Set route path: t dji msg rot [wm610/hg310]. tdji msg lvl [1/2]
+ dev            : show device version: t dji msg dev . t dji dev
+ ut             : Command unit test: t dji msg ut [rx type][rx index][cmdset][cmd][datalen][d0][d1]...[dn].
+ st             : Command system test: t dji msg st [cmdset][cmd][datalen][d0][d1]...[dn].
+ gen            : Generate message: t dji msg gen [ptlver][sender][receiver][seqnum][msgtype][rsptype][encrypt][cmdset][cmd][datelen][d0]...[dn].
+ stat           : Set/clear camera states: t dji msg stat [state][operation].
+ chk            : Check structure len: t dji msg chk.
+ pin            : Print special command: t dji msg pin [cmdset] [cmd].
+ stg            : Print special stage: t dji msg stg [off/receive/handle/send/all]: t dji msg stg [0/1/2/4/7]
+ show           : Show message handler infomation: t dji msg show [statistics/recovery/status/buffer/device/all]. t dji msg show [1/2/3/4/0]
+ clr            : Clear message handler statistics: t dji msg clr [statistics/recovery/all]. t dji msg clr [1/2/0]
+ flag           : Control the debug flag: t dji msg flag [debug/push/com] [disable/enable]. t dji msg flag [0/1/2] [0/1]
+ lvl            : Set athorization level: t dji msg lvl [low/medium/high]. tdji msg lvl [0/1/2]
+ zoom           : set view scaling: t dji msg zoom [Dzoom mode] [DZoom value] [Ozoom mode] [OZoom value].
+ Bcpu           : Test communication with BCPU
+ link           : Test linkpath status: t dji msg link [receiver type] [receiver index] [loopcnt] [interval].
+ push           : Set/clear push states: t dji msg push [state][operation].
+ cal            : calibration control: t dji msg cal [set/get] [type]. eg:t dji msg cal [0/1] [0/1/2/3]
+ certify        : fpga ceritfy control: t dji msg certify [reinit] [debug]. eg:t dji msg certify [0/1] [0/1]
+ context        : Context Set: t dji msg context [H1 Res][H1 FPS][FPGA MainMode][FPGA Sub][FPGA Res] 
+ videostandard  : VideoStandard Set: t dji msg videostandard 1-NTSC 0-PAL
+ Temp           : Temperature Set: t dji msg Temp 0-Disable,1-Enable
+ MFEnvFlag      : MFEnvFlagPrint
+ AudSw          : set raw audio switch
+ AudBps         : set raw audio bps
+ AudAg          : set audio again level
+ AudDg          : set audio dgain level
+ RAudDg         : set raw audio dgain level
+ RAudInfo       : set raw audio info [sw] [bps] [dgain]
+ RAudShow       : show raw audio info
+ MovingDir      : FF Moving Dir control: t dji msg MovingDir
+ lens           : lens push command test: t dji msg lens
+ MirrorShow     : show mirror status
+ MirrorLock     : set mirror lock status
+ AutoAction     : Set/Get auto action param: t dji msg AutoAction [get/set] [standby timeout] [poweroff timeout]:t dji msg AutoAction [0/1] [ms] [ms]
+ videofov       : VideoFov Set: t dji msg videofov 0-SuperWide 1-Normal 2-Linear 
+ lock           : af ae lock set test: t dji msg lock
+ UserMode       : set user mode [set/get] [normal/professional]: t dji UserMode [0/1] [0/1]
+ UserSave       : save user settings [user]: t dji UserSave [0/1/2/3/4/5]
+ UserLoad       : load user settings [user]: t dji UserLoad [0/1/2/3/4/5]
+ StreamQuality  : t dji msg StreamQuality 1-Normal 2-High
+ GimOrienShow   : show gimbal orientation status
+ GimOrienSet    : set gimbal orientation status
+ GroupOp        : group operation of start set and delete: t dji GroupOp [0/1][index]

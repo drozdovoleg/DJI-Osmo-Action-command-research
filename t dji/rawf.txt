@@ -1,0 +1,23 @@
+ write          : Command unit test: t dji rawf write word_addr_high word_addr_low data0 data1 data2 ...
+ read           : Command unit test: t dji rawf read num
+ read_add       : Command unit test: t dji rawf read_add word_addr_high word_addr_low num
+ debug          : Command unit test: t dji rawf debug flag(0 - close; 1 - open)
+ dngdebug       : Command unit test: t dji rawf dngdebug flag(0 - close; 1 - open)
+ format         : Command unit test: t dji rawf format [0/FAT|1/exFAT]
+ poweroff       : Command unit test: t dji rawf poweroff
+ status         : Command unit test: t dji rawfstatus
+ video          : Command unit test: t dji rawf video [get | set | setbyh1]
+ checksize      : Command unit test: t dji rawf checksize [workmode | h1andfpga]
+ workmode       : Command unit test: t dji rawf workmode [query|set |CaporRec]
+ capture        : Command unit test: t dji rawf capture [start|changetoccap|state]
+ name           : Command unit test: t dji rawf name [reel|equip|clipid|del]
+ atv            : Command unit test: t dji rawf atv [0/active|1/deactive|2/lock|3/unlock]
+ color          : Command unit test: t dji rawf color [enum]
+ looks          : Command unit test: t dji rawf looks [enum]
+ event          : Command unit test: t dji rawf event [event] [operation]
+ fac            : Command unit test: t dji rawf fac [mode]
+ addr           : Command unit test: t dji rawf addr
+ date           : Command unit test: t dji rawf date [1/Enable|0/Disable][Year][Mon][Day][Hour][Min][Sec].
+ fsize          : Command unit test: t dji rawf fsize [0/1].
+ funcchk        : Command unit test: t dji rawf funcchk [0/1].
+ InitStatus     : Command unit test: t dji rawf InitStatus

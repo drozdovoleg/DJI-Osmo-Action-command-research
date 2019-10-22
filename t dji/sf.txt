@@ -1,0 +1,13 @@
+ dbg            : Debug level. 0:err,1:warn,2:notice,3:info,4:debug
+ info           : show device information
+ init           : init device
+ config         : spi port:  t dji sf config [channel] [slaveid] [mode] [polarity] [order] [framsize] [clk]
+ cmd            : transfer data from/to flash:  t dji sf rw [cmd] [data0] ... [dataN] [length]
+ test           : sector read/write test: t dji sf test [SectorType][WriteOnce] [TestCount] [MaxDataSize] [MinDataSize][StartAddr]
+ lss            : lock security sector: t dji sf lss [sectorNum] [timeout]
+ trspeed        : test amba spi speed: t dji sfh trspeed [FrameSize] [EnableDma] [DataSize] [TestCount]
+ stat           : stat: t dji sf stat [mode] [regval](0:read status,1:write status)
+ erase          : erase: t dji sf erase [addr] [size]
+ read           : read: t dji sf read [addr] [count](<250)
+ write          : write: t dji sf write [addr] [data0] [data1] ... [dataN](<250)
+ chmod          : chmod: t dji sf chmod [mode](0:readonly,1:readwrite)

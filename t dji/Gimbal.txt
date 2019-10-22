@@ -1,0 +1,8 @@
+ FanCtrl        : Command unit test: t dji Gimbal FanCtrl [0,100]
+ DRMode         : Command unit test: t dji Gimbal DRMode 0/1/2/3
+ WorkMode       : Command unit test: t dji Gimbal WorkMode 0/1
+ Mode           : Command unit test: t dji Gimbal Mode 0~255/0~2
+ Rotate         : Command unit test: t dji Gimbal Mode 0~255/0~2
+ State          : Command unit test: t dji Gimbal Mode 0~255/0~2
+ Temperatue     : Command unit test: t dji Gimbal Temperature 0/1
+ Selfcheck      : Command unit test: t dji Gimbal Selfcheck
