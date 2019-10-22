@@ -1,0 +1,9 @@
+Usage: vout info [0/1]                                         : show vout disp 0/1 timing
+       vout csc [digi|cvbs|hdmi] [601|709|unit|color] <Matrix> : change csc table
+       vout gamma [all|0|1|2] [linear|reverse|set <Data>]      : config gamma table of digital vout
+
+          Options:
+            Matrix 0:        The valid selection for 'unit'
+            Matrix 0-2:      The valid selections for 'color'
+            Matrix 0-7:      The valid selections for '601' and '709'
+
